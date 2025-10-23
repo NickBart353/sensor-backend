@@ -2,7 +2,7 @@
 
 Build
 ```
-./mvnw package -Dquarkus.package.type=uber-jar -DskipTests
+./mvnw package "-Dquarkus.package.type=uber-jar" -DskipTests
 ```
 
 Build Docker
